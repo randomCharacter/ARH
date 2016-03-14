@@ -1,4 +1,4 @@
-#zad05
+#v01/zad05
 #deljenje oduzimanjem
 #autor: Mario Peric, E2
 .section .data
