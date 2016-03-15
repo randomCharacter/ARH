@@ -1,4 +1,4 @@
-# ARH
+# Arhitektura računara
 
 Rešenja zadataka sa vežbi predmeta "Arhitektura računara" koje su rađene 2016. godine na Fakultetu Tehničkih nauka u Novom Sadu.
 
