@@ -1,4 +1,4 @@
-#zad03
+#v01/zad03
 #izracunati n-ti element fibonacijevog niza
 #autor: Mario Peric, E2
 .section .data

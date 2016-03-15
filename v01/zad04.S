@@ -1,4 +1,4 @@
-#zad04
+#v01/zad04
 #izracunati faktorijel broja n
 #autor: Mario Peric, E2
 .section .data

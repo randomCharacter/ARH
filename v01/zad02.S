@@ -1,4 +1,4 @@
-#zad02
+#v01/zad02
 #pomnoziti 2 broja pomocu sabiranja
 #autor: Mario Peric, E2
 .section .data

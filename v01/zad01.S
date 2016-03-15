@@ -1,4 +1,4 @@
-#zad01
+#v01/zad01
 #izracunati zbir prvih n brojeva
 #autor: Mario Peric, E2
 .section .data
