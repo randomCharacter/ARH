@@ -1,5 +1,5 @@
 #v02/zad01
-#smestiti 64-bitnu vrednost u cetiri 32-bitna rgistra
+#smestiti 64-bitnu vrednost u cetiri 32-bitna registra
 #autor: Mario Peric, E2
 .section .data
 A: 
