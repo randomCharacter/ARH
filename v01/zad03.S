@@ -6,9 +6,9 @@
 .globl main
 main:
 	movl $5  , %eax #n = 5
-    movl $1  , %ebx #f1 = 1, prvi fib broj
-    movl $1  , %ecx #f2 = 1, drugi fib broj
-    movl $0  , %edx #s = 0, suma
+	movl $1  , %ebx #f1 = 1, prvi fib broj
+	movl $1  , %ecx #f2 = 1, drugi fib broj
+	movl $0  , %edx #s = 0, suma
 pocetak:
 	cmpl $1  , %eax
 	je   kraj       #zavrsava program ako je n == 1
