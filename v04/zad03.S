@@ -35,7 +35,7 @@ upis:
 	movl $MAX, %edx
 	int  $0x80       #ucitava string
 palindrom:
-	movl $1  , %ebx  #1 ako je palindrom
+	movl $1  , %ebx #1 ak o je palindrom
 	movl %esi, %edi 
 	addl %eax, %edi
 	subl $2  , %edi  #q pokazuje na poslednji karakter stringa
