@@ -1,4 +1,4 @@
-#v04/zad04
+#v03/zad04
 #sortirati string po abecedi
 #autor: Mario Peric, E2
 .section .data
@@ -8,7 +8,7 @@ string:
 .globl main
 main:
 	leal string, %esi #pokazivac na pocetak stringa
-	leal string, %edi   #pokazivac na kraj stringa
+	leal string, %edi #pokazivac na kraj stringa
 	movl $0  , %edx   #duzina stringa len = 0
 	movl $0  , %ebx   #adresa max karaktera
 duzina:
