@@ -14,9 +14,9 @@ greska:
 .section .text
 .globl main
 main:
-	movl $0  , %ecx
+	movl $0  , %esi         #index i
 	movl $0  , greska
-pocetak:
+pocetak:                    #uporedjivanje nizova A i B
 	movl A+4(,%esi,8), %eax
 	cmpl B+4(,%esi,8), %eax
 	jl   zbir
@@ -24,20 +24,20 @@ pocetak:
 	movl A(,%esi,8), %eax
 	cmpl B(,%esi,8), %eax
 	jl   zbir
-raz:
+raz:                        #racunanje razlike A i B ako je A>B
 	movl A+4(,%esi,8), %eax
 	movl A(,%esi,8), %ebx
-	subl B+4(,%esi,8), %eax
+	subl B+4(,%esi,8), %eax 
 	sbbl B(,%esi,8), %ebx
 	jmp  sled
-zbir:
+zbir:                       #racunanje zbira A i B ako nije A>B
 	movl A+4(,%esi,8), %eax
 	movl A(,%esi,8), %ebx
 	addl B+4(,%esi,8), %eax
 	adcl B(,%esi,8), %ebx
 	adcl $0, greska
 	jnz  kraj
-sled:
+sled:                       #prelazak na sledece elemente niza
 	movl %eax, C+4(,%esi,8)
 	movl %ebx, C(,%esi,8)
 	incl %esi

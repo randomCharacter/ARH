@@ -14,25 +14,25 @@ van_opsega:
 .section .text
 .globl main
 main:
-	movl $0  , %ecx 
-pocetak:
+	movl $0  , %ecx           #index i = 0
+pocetak:                      #prebacivanje niz[i] u registre eax i ebx
 	movl niz(,%ecx,8), %ebx
 	movl niz+4(,%ecx,8), %eax
-donja_g:
+donja_g:                      #proverava da li je broj manji od donje granice
 	cmpl donja+4, %eax
 	jl uvecaj
 	jg gornja_g
 	cmpl donja, %ebx
 	jl  uvecaj
-gornja_g:
+gornja_g:                     #proverava da li je broj veci od gornje granice
 	cmpl gornja+4, %eax
 	jg uvecaj
 	jl sledeci
 	cmpl donja, %ebx
 	jg uvecaj
-uvecaj:
+uvecaj:                       #povecava van_opsega ukoliko broj nije u opsegu
 	incl van_opsega
-sledeci:
+sledeci:                      #prelazak na sledeci element niza
 	incl %ecx
 	cmpl $NELEM, %ecx
 	jl   pocetak
