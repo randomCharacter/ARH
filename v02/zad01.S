@@ -1,5 +1,5 @@
 #v02/zad01
-#smestiti 64-bitnu vrednost u cetiri 32-bitna registra
+#smestiti 32-bitnu vrednost u cetiri 8-bitna registra
 #autor: Mario Peric, E2
 .section .data
 A: 
@@ -14,4 +14,4 @@ main:
 kraj:
 	movl $1  , %eax
 	movl $0  , %ebx
-	int $0x80
+	int  $0x80

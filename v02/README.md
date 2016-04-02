@@ -1,6 +1,6 @@
 #v02
 ##zad01
-smestiti 64-bitnu vrednost u cetiri 32-bitna registra
+smestiti 32-bitnu vrednost u cetiri 8-bitna registra
 ##zad02
 podelti broj A sa brojem B i kolicnik snimiti u K, a ostatak u O
 ##zad03
