@@ -27,14 +27,14 @@ pocetak:                    #uporedjivanje nizova A i B
 raz:                        #racunanje razlike A i B ako je A>B
 	movl A+4(,%esi,8), %eax
 	movl A(,%esi,8), %ebx
-	subl B+4(,%esi,8), %eax 
-	sbbl B(,%esi,8), %ebx
+	subl B(,%esi,8), %ebx 
+	sbbl B+4(,%esi,8), %ebx
 	jmp  sled
 zbir:                       #racunanje zbira A i B ako nije A>B
 	movl A+4(,%esi,8), %eax
 	movl A(,%esi,8), %ebx
-	addl B+4(,%esi,8), %eax
-	adcl B(,%esi,8), %ebx
+	addl B(,%esi,8), %ebx
+	adcl B+4(,%esi,8), %eax
 	adcl $0, greska
 	jnz  kraj
 sled:                       #prelazak na sledece elemente niza
