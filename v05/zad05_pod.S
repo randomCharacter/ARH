@@ -11,7 +11,7 @@ fib:
 	movl 8(%ebp), %ecx   #X -> ecx
 	movl $0  , %edx      #rezultat
 	subl $4  , %esp      #lokalna promenljiva za rezultat
-	movl $0, -4(%esp)    #res = 0
+	movl $0, -4(%ebp)    #res = 0
 pocetak:                 #trivijalni slucajevi
 	cmpl $2  , %ecx
 	jle  trivijalno
@@ -20,18 +20,18 @@ poziv1:                  #poziv za X-1
 	pushl %ecx
 	call fib
 	popl %ecx
-	addl %eax, -4(%esp)  #dodavanje na rezultat
+	addl %eax, -4(%ebp)  #dodavanje na rezultat
 poziv2:                  #poziv za X-2
 	decl %ecx
 	pushl %ecx
 	call fib
 	popl %ecx
-	addl %eax, -4(%esp)  #dodavanje na rezultat
+	addl %eax, -4(%ebp)  #dodavanje na rezultat
 	jmp  rez
 trivijalno:
-	movl $1, -4(%esp)
+	movl $1, -4(%ebp)
 rez:
-	movl -4(%esp), %eax
+	movl -4(%ebp), %eax
 kraj_fib:
 	movl %ebp, %esp     #brisanje lokalnig promenljivih
 	popl %ebp
