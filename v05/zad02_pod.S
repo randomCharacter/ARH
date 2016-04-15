@@ -1,5 +1,5 @@
 #v05/zad02
-#potprogram koji racuna N ti fibonacijev broj int fib(int x)
+#potprogram koji racuna N ti fibonacijev broj
 #autor: Mario Peric, E2
 .section .data
 .section .text

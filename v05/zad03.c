@@ -1,15 +1,14 @@
 /*
 *	v05/zad03
 *	Napisati C program koji pozifa funkciju int fib(int x, int *res)
-*	iz asemblerskog podprograma.
+*	iz asemblerskog potprograma.
 */
 #include <stdio.h>
 
 int fib(int x, int *res);
 
-int main(int argc, char const *argv[])
-{
-	int x, res = 0;
+int main() {
+	int x, res;
 	printf("Unesite broj: ");
 	scanf("%d", &x);
 	if (!fib(x, &res))  //! - vraca nulu ako je uspeo
