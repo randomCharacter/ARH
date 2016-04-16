@@ -13,7 +13,7 @@ napisati potprogram koji racuna n-ti fibonacijev broj, a rezultat smesta u drugu
 `gcc -g -m32 zad03.c zad03_pod.S`(<i>potprogram je u S fajlu, a glavni program u C fajlu</i>)
 ##zad04
 napisati potprogram koji racuna elemente niz C po sledecoj formuli c[i] = a[i] + b[i] u dvostrukoj preciznosti, kao i C program koji ga poziva   
-<b>#int saberi_niz(long long *a, long long *b, long long *c, int n)</b>   
+<b>int saberi_niz(long long *a, long long *b, long long *c, int n)</b>   
 `gcc -g -m32 zad03.c zad03_pod.S`(<i>potprogram i program se nalaze u razlicitim fajlovima</i>)
 ##zad05
 napisati potprogram koji racuna n-ti clan fibonacijevog niza rekurzivno   
