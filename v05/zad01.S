@@ -14,16 +14,16 @@ R:
 NZD:
 	pushl %ebp          #cuvanje FP-a
 	movl %esp, %ebp     #postavljanje novog FP-a
-	movl 8(%ebp), %ecx  #B -> ecx
-	movl 12(%ebp), %edx #A -> edx
+	movl 8(%ebp), %ecx  #A -> ecx
+	movl 12(%ebp), %edx #B -> edx
 uporedi:                #poredi A i B i oduzimama manji od veceg dok se ne izjednace
 	cmpl %ecx, %edx
 	je   kraj_NZD
 	jg   oduzmiB
-oduzmiA:                #oduzima A od B
+oduzmiA:                #oduzima B od A
 	subl %edx, %ecx
 	jmp  uporedi
-oduzmiB:                #oduzima B od A
+oduzmiB:                #oduzima A od B
 	subl %ecx, %edx
 	jmp  uporedi
 kraj_NZD:
