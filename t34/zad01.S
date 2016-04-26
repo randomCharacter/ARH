@@ -4,7 +4,7 @@
 .section .data
 .section .text
 .global Racunaj
-#long long Racunaj(long long *A, long long *B, char *operacija, int *greska);
+#long long Racunaj(long long *A, long long *B, char *operacija, int *greska)
 Racunaj:
 	pushl %ebp
 	movl %esp, %ebp
@@ -78,7 +78,7 @@ rez:                    #nije doslo do greske, vracanje rezultata
 	movl 20(%ebp), %ecx
 	movl $0, (%ecx)
 
-kraj:                   #vracanje starih promenjivih
+kraj_Racunaj:           #vracanje starih promenjivih
 	popl %edi
 	popl %esi
 	popl %ebx
