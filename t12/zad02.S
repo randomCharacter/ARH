@@ -1,5 +1,5 @@
-#proveriti da li je broj u opsegu -5 000 000 000 i 6 000 000 000
 #t12/zad02
+#proveriti da li je broj u opsegu -5 000 000 000 i 6 000 000 000
 #autor: Mario Peric, E2
 .section .data
 NELEM = 4

@@ -1,5 +1,5 @@
-#izracunati elemente niza C po formuli C[i]=A[i]-B[i] za A[i]>B[i], C[i]=A[i]+B[i] inace
 #t12/zad03
+#izracunati elemente niza C po formuli C[i]=A[i]-B[i] za A[i]>B[i], C[i]=A[i]+B[i] inace
 #autor: Mario Peric, E2
 .section .data
 NELEM = 4

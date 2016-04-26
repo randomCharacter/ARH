@@ -1,5 +1,5 @@
-#naci sve karaktere koji nisu ni slovo ni cifra i izbaciti ih
 #t12/zad01
+#naci sve karaktere koji nisu ni slovo ni cifra i izbaciti ih
 #autor: Mario Peric, E2
 .section .data
 MAX = 100
