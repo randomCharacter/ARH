@@ -3,14 +3,15 @@
 Napisati potprogram koji vraća rezultat računske operacije između <b>dve 64-bitne označene promenljive A i B</b>, u zavisnosti od parametra operacija. Ukoliko operacija ima vrednost:   
 	‘+’, vratiti <b>zbir A+B</b>,   
 	‘-’, vratiti <b>razliku A-B</b>,   
-	,‘*’, vratiti <b>proizvod A*B</b>   
+	‘*’, vratiti <b>proizvod A*B</b>   
 U slučaju da operacija ima neku drugu vrednost, promenljivu greška postaviti na 1.   
 U slučaju da dođe do prekoračenja opsega, promenljivu greška postaviti na -1.   
 U svim ostalim slučajevima, promenljivu greška postaviti na 
 0.   
 Deklaracija potprograma je data sa:
 <b>long long Racunaj(long long *A, long long *B, char *operacija, int *greska);</b>   
-gde su A, B, operacija i greška pokazivači na odgovarajuće parametre. Za testiranje je dat glavni program [<b>zad1.c</b>](./zad1.c).
+gde su A, B, operacija i greška pokazivači na odgovarajuće parametre. Za testiranje je dat glavni program [<b>zad1.c</b>](./zad1.c).   
+Detaljnije objašnjenje algoritma za množenje nalazi se u fajlu [proizvod.md](./proizvod.md)
 ##zad02
 Napisati potprogram koji proverava da li se <b>označene 64-bitne vrednosti u nizu A</b> nalaze u otvorenom intervalu (-123456789000, 123456789000). Ukoliko dati član niza nije u intervalu, dodati mu 10000, u suprotnom ga celobrojno pomnožiti sa 10. Povratna vrednost potprograma je broj elemenata niza koji se nalaze u intervalu. Deklaracija potprograma je data sa:   
 <b>int DodajMnozi(long long *A, unsigned N);</b>   
