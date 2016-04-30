@@ -78,7 +78,7 @@ rez:                    #nije doslo do greske, vracanje rezultata
 	movl 20(%ebp), %ecx
 	movl $0, (%ecx)
 
-kraj_Racunaj:           #vracanje starih promenjivih
+kraj_Racunaj:           #vracanje starih vrednosti u registre
 	popl %edi
 	popl %esi
 	popl %ebx
