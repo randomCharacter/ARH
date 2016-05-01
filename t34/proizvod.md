@@ -13,4 +13,4 @@ Sada za proizvod <b>A</b>*<b>B</b> vazi
    Vise znacajne cifre bice odredjene formulom a1 * b2 + b1 * a2, pri cemu se mora voditi racuna da ne dodje do prekoracenja   
    Manje znacajne cifre bice odredjene sa a2 * b2. Vise znacajne cifre rezultata ovog mnozenja moraju se dodati na vise znacajne cifre broja kako ne bi doslo do gubitaka   
 
-   <i>Ekvivalentan asemblerski kod dat je u t34/zad01.S<i>
+   <i>Ekvivalentan asemblerski kod dat je u [t34/zad01.S](./zad01.S)<i>
