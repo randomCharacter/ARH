@@ -1,3 +1,6 @@
+#v09/zad
+#program koji ispisuje animaciju sa snimka u terminal
+#autor: Mario Peric, E2
 .section .data
 RESX = 80   # horizontalna rezolucija, mora biti deljiva sa 8
 RESY = 25   # vertikalna rezolucija
