@@ -1,5 +1,5 @@
-#v06
-##zad01
+# v06
+## zad01
 napisati asemblerski potprogram maska koji za argumente prima dva neoznacena broja n i v koji predstavljaju redom redni broj bita i vrednost bita na koju treba da postavi, dok sve ostale bitove u datom broju treba da postavlja na suprotnu vrednost.  
 za testiranje dat je glavni program [<b>zad01.c</b>](./zad01.c).
 <b>unsigned int maska(unsigned int n, unsigned int v)</b>   
@@ -12,7 +12,7 @@ primeri:
 0, <b>greska</b>  
 <b>n</b> = 3  <b>v</b> = 2  
 0, <b>greska</b>  
-##zad02
+## zad02
 napisati asemblerski potprogram maska64 koji za argumente prima 2 neoznacena broja n i v koji predstavljaju redom redni broj bita i vrednost bita 64-bitnog broja na koju treba da postavi, dok sve ostale bitove datog broja postavlja na suprotnu vrednost  
 za testiranje dat je glavni program [<b>zad02.c</b>](./zad02.c).
 <b>unsigned long long maska(unsigned int n, unsigned int v)</b>  

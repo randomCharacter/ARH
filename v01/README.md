@@ -1,11 +1,11 @@
-#v01
-##zad01
+# v01
+## zad01
 izracunati zbir prvih n brojeva
-##zad02
+## zad02
 pomnoziti 2 broja pomocu sabiranja
-##zad03
+## zad03
 izracunati n-ti element fibonacijevog niza
-##zad04
+## zad04
 izracunati faktorijel broja n
-##zad05
+## zad05
 podeliti brojeve oduzimanjem

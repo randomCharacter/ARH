@@ -1,3 +1,4 @@
+# v09
 Napisati asemblerski program koji omogućava pomeranje tačke po monohromatskom ekranu
 računara četvrte generacije i ispis njenih trenutnih koordinata u heksadecimalnom brojnom sistemu,
 sa vodećim nulama (pogledati video zapis [Zadatak-A.mp4](./Zadatak-A.mp4) radi uvida šta se tačno traži; desni
