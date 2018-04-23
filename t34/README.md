@@ -3,7 +3,7 @@
 Napisati potprogram koji vraća rezultat računske operacije između <b>dve 64-bitne označene promenljive A i B</b>, u zavisnosti od parametra operacija. Ukoliko operacija ima vrednost:   
 	‘+’, vratiti <b>zbir A+B</b>,   
 	‘-’, vratiti <b>razliku A-B</b>,   
-	‘*’, vratiti <b>proizvod A*B</b>   
+	‘\*’, vratiti <b>proizvod A\*B</b>   
 U slučaju da operacija ima neku drugu vrednost, promenljivu greška postaviti na 1.   
 U slučaju da dođe do prekoračenja opsega, promenljivu greška postaviti na -1.   
 U svim ostalim slučajevima, promenljivu greška postaviti na 
